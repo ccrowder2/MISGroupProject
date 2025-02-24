@@ -1,0 +1,113 @@
+﻿09/12/2024 14:42:34 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+09/12/2024 14:42:35 Central Standard Time : Information : Service Hub .NET service module host started. Host id: dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE. Controller pipe: net.pipe://437203021F. PID: 43743
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr read: Content-Length: 111
+
+{"jsonrpc":"2.0","id":2,"method":"initializeHost","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr write: Content-Length: 79
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr read: Content-Length: 1025
+
+{"jsonrpc":"2.0","id":4,"method":"startService","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/ad5ddac417/33dc4fe719","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr read: Content-Length: 1044
+
+{"jsonrpc":"2.0","id":5,"method":"startService","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/ad5ddac417/a9842baa4f","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 974
+
+{"jsonrpc":"2.0","id":3,"method":"startService","params":[{"name":"Microsoft.CodeCoverage.VSCode.ReportService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.ReportServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/ad5ddac417/05ddcf0628","__servicehub__RequestedServiceVersion":"1.0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/12/2024 14:42:35 Central Standard Time : Information : CLR host received start request for service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService'
+09/12/2024 14:42:35 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64'
+09/12/2024 14:42:35 Central Standard Time : Information : Starting service module 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService'. Class: Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : Started service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService'. Pipe name: /Users/coycrowder/.ServiceHub/ad5ddac417/82df945129, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/ad5ddac417/82df945129"}
+09/12/2024 14:42:35 Central Standard Time : Information : CLR host received start request for service 'Microsoft.VisualStudio.TestWindow.VSCode.Service'
+09/12/2024 14:42:35 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64'
+09/12/2024 14:42:35 Central Standard Time : Information : Starting service module 'Microsoft.VisualStudio.TestWindow.VSCode.Service'. Class: Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : Started service 'Microsoft.VisualStudio.TestWindow.VSCode.Service'. Pipe name: /Users/coycrowder/.ServiceHub/ad5ddac417/d7cf6e14e5, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : CLR host received start request for service 'Microsoft.CodeCoverage.VSCode.ReportService'
+09/12/2024 14:42:35 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64'
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":5,"result":"/Users/coycrowder/.ServiceHub/ad5ddac417/d7cf6e14e5"}
+09/12/2024 14:42:35 Central Standard Time : Information : Starting service module 'Microsoft.CodeCoverage.VSCode.ReportService'. Class: Microsoft.VisualStudio.CoverageServices.ReportServiceFactory, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : Started service 'Microsoft.CodeCoverage.VSCode.ReportService'. Pipe name: /Users/coycrowder/.ServiceHub/ad5ddac417/68ad37239e, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/ad5ddac417/68ad37239e"}
+09/12/2024 14:42:35 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService'
+09/12/2024 14:42:35 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.CodeCoverage.VSCode.ReportService'
+09/12/2024 14:42:35 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.TestWindow.VSCode.Service'
+09/12/2024 14:42:35 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.CodeCoverage.VSCode.ReportService.
+09/12/2024 14:42:35 Central Standard Time : Information : Service 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/12/2024 14:42:35 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService.
+09/12/2024 14:42:35 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr read: Content-Length: 982
+
+{"jsonrpc":"2.0","id":6,"method":"startService","params":[{"name":"Microsoft.CodeCoverage.VSCode.CollectionService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/ad5ddac417/b103c8ebdd","__servicehub__RequestedServiceVersion":"1.0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/12/2024 14:42:35 Central Standard Time : Information : CLR host received start request for service 'Microsoft.CodeCoverage.VSCode.CollectionService'
+09/12/2024 14:42:35 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64'
+09/12/2024 14:42:35 Central Standard Time : Information : Starting service module 'Microsoft.CodeCoverage.VSCode.CollectionService'. Class: Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : Started service 'Microsoft.CodeCoverage.VSCode.CollectionService'. Pipe name: /Users/coycrowder/.ServiceHub/ad5ddac417/3fa4f519a5, Supported Version: 
+09/12/2024 14:42:35 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.TestWindow.VSCode.Service.
+09/12/2024 14:42:35 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/12/2024 14:42:35 Central Standard Time : Information : hubHostClr write: Content-Length: 105
+
+{"jsonrpc":"2.0","method":"hostServicesStarted","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}Content-Length: 87
+
+{"jsonrpc":"2.0","id":6,"result":"/Users/coycrowder/.ServiceHub/ad5ddac417/3fa4f519a5"}
+09/12/2024 14:42:35 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.CodeCoverage.VSCode.CollectionService'
+09/12/2024 14:42:35 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.CodeCoverage.VSCode.CollectionService.
+09/12/2024 14:42:35 Central Standard Time : Information : Service 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/12/2024 14:42:35 Central Standard Time : Information : Creating service Microsoft.VisualStudio.CoverageServices.ReportServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=1.0.
+09/12/2024 14:42:35 Central Standard Time : Information : Creating service Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=0.1.
+09/12/2024 14:42:35 Central Standard Time : Information : Creating service Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory from factory with FactoryVersion=Version2 and ClientRequestedVersion=0.1.
+09/12/2024 14:42:35 Central Standard Time : Information : Creating service Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=1.0.
+09/12/2024 14:42:35 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' from factory
+09/12/2024 14:42:35 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' from factory
+09/12/2024 14:42:36 Central Standard Time : Information : hubHostClr read: Content-Length: 1093
+
+{"jsonrpc":"2.0","id":7,"method":"startService","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/ad5ddac417/4869da0299","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/12/2024 14:42:36 Central Standard Time : Information : CLR host received start request for service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service'
+09/12/2024 14:42:36 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.18-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64'
+09/12/2024 14:42:36 Central Standard Time : Information : Starting service module 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service'. Class: Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory, Supported Version: 
+09/12/2024 14:42:36 Central Standard Time : Information : Started service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service'. Pipe name: /Users/coycrowder/.ServiceHub/ad5ddac417/44fc0ac9c0, Supported Version: 
+09/12/2024 14:42:36 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":7,"result":"/Users/coycrowder/.ServiceHub/ad5ddac417/44fc0ac9c0"}
+09/12/2024 14:42:36 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service'
+09/12/2024 14:42:36 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.
+09/12/2024 14:42:36 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/12/2024 14:42:36 Central Standard Time : Information : Creating service Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=0.1.
+09/12/2024 14:42:36 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' from factory
+09/12/2024 14:42:36 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' from factory
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' implements System.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory' implements System.IDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' implements System.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.CoverageServices.ReportServiceFactory' implements System.IDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' implements System.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory' implements System.IDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' implements System.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory' implements System.IDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' implements System.IAsyncDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory' implements System.IDisposable.
+09/12/2024 15:19:37 Central Standard Time : Information : hubHostClr write: Content-Length: 103
+
+{"jsonrpc":"2.0","method":"hostServicesEnded","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+09/12/2024 15:19:37 Central Standard Time : Information : hubHostClr read: Content-Length: 46
+
+{"jsonrpc":"2.0","method":"exit","params":[3]}
+09/12/2024 15:19:37 Central Standard Time : Information : Exit command received with reason 'ForcedControllerShutdown'. Exiting CLR host
+09/12/2024 15:19:37 Central Standard Time : Information : hubHostClr JSON RPC has been disposed
+09/12/2024 15:19:37 Central Standard Time : Information : hubHostClr read: end of stream

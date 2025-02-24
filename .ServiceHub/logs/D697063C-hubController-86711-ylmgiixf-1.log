@@ -1,0 +1,32 @@
+﻿12/02/2024 21:18:06 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+12/02/2024 21:18:06 Central Standard Time : Information : Started controller with command line /Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.13.9-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller 1fc5eb9ea4 /ControllerCooldownTimeout:30000 /TelemetrySession:{"TelemetryLevel":"all","IsOptedIn":false,"HostName":"Default","AppInsightsInstrumentationKey":null,"AsimovInstrumentationKey":null,"CollectorApiKey":"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255","AppId":1010,"UserId":"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5","Id":"a164ed11-f43b-4682-a1eb-b7cbe4f6b4f91733195732546","ProcessStartTime":133776694843161710,"SkuName":null,"VSExeVersion":null,"BucketFiltersToEnableWatsonForFaults":[],"BucketFiltersToAddDumpsToFaults":[]}
+12/02/2024 21:18:06 Central Standard Time : Information : Acquiring single controller instance mutex with name '1597162102-ServiceHubControllerSingleInstanceMutex'
+12/02/2024 21:18:06 Central Standard Time : Information : Acquired single controller instance mutex with name '1597162102-ServiceHubControllerSingleInstanceMutex'
+12/02/2024 21:18:07 Central Standard Time : Information : Controller cooldown timeout is set to 30000ms
+12/02/2024 21:18:07 Central Standard Time : Information : Starting server 'hubController' at 'net.pipe://1fc5eb9ea4' (at '/Users/coycrowder/.ServiceHub/1fc5eb9ea4/1fc5eb9ea4').
+12/02/2024 21:18:07 Central Standard Time : Information : Successfully started server on pipe 1fc5eb9ea4
+12/02/2024 21:18:07 Central Standard Time : Information : Triggered controller shutdown timer process.
+12/02/2024 21:18:07 Central Standard Time : Information : Client connected to controller
+12/02/2024 21:18:07 Central Standard Time : Information : Client connected to controller
+12/02/2024 21:18:07 Central Standard Time : Information : Client connected to controller
+12/02/2024 21:18:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+12/02/2024 21:18:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+12/02/2024 21:18:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":86696}]}
+12/02/2024 21:18:07 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+12/02/2024 21:18:07 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+12/02/2024 21:18:07 Central Standard Time : Information : Starting server 'clientWatch' at 'net.pipe://867111A257' (at '/Users/coycrowder/.ServiceHub/1fc5eb9ea4/867111A257').
+12/02/2024 21:18:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 440
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://867111A257","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.13.9-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["1fc5eb9ea4"],"PipeName":"1fc5eb9ea4"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+12/02/2024 21:18:07 Central Standard Time : Information : External client connect to client watch
+12/02/2024 21:18:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+12/02/2024 21:18:07 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+12/02/2024 21:18:07 Central Standard Time : Information : External client disconnected from client watch.
+12/02/2024 21:18:08 Central Standard Time : Information : Starting fast shutdown
+12/02/2024 21:18:08 Central Standard Time : Information : Stopping the location service server.
+12/02/2024 21:18:08 Central Standard Time : Information : Exiting hub controller.
+12/02/2024 21:18:08 Central Standard Time : Information : Releasing single controller instance mutex.
+12/02/2024 21:18:08 Central Standard Time : Information : All hosts have exited.
+12/02/2024 21:18:08 Central Standard Time : Information : Controller terminating with exit code '0'.

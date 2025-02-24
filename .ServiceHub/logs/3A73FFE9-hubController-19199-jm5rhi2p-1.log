@@ -1,0 +1,936 @@
+﻿02/18/2025 21:46:15 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+02/18/2025 21:46:15 Central Standard Time : Information : Started controller with command line /Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller a11871aca6 /ControllerCooldownTimeout:30000 /TelemetrySession:{"TelemetryLevel":"all","IsOptedIn":false,"HostName":"Default","AppInsightsInstrumentationKey":null,"AsimovInstrumentationKey":null,"CollectorApiKey":"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255","AppId":1010,"UserId":"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5","Id":"041720f8-e8bd-42c2-9808-55141d7dc9591739930138573","ProcessStartTime":133844103732174302,"SkuName":null,"VSExeVersion":null,"BucketFiltersToEnableWatsonForFaults":[],"BucketFiltersToAddDumpsToFaults":[]}
+02/18/2025 21:46:15 Central Standard Time : Information : Acquiring single controller instance mutex with name '1433111584-ServiceHubControllerSingleInstanceMutex'
+02/18/2025 21:46:15 Central Standard Time : Information : Acquired single controller instance mutex with name '1433111584-ServiceHubControllerSingleInstanceMutex'
+02/18/2025 21:46:16 Central Standard Time : Information : Controller cooldown timeout is set to 30000ms
+02/18/2025 21:46:16 Central Standard Time : Information : Starting server 'hubController' at 'net.pipe://a11871aca6' (at '/Users/coycrowder/.ServiceHub/a11871aca6/a11871aca6').
+02/18/2025 21:46:16 Central Standard Time : Information : Successfully started server on pipe a11871aca6
+02/18/2025 21:46:16 Central Standard Time : Information : Triggered controller shutdown timer process.
+02/18/2025 21:46:16 Central Standard Time : Information : Client connected to controller
+02/18/2025 21:46:16 Central Standard Time : Information : Client connected to controller
+02/18/2025 21:46:16 Central Standard Time : Information : Client connected to controller
+02/18/2025 21:46:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+02/18/2025 21:46:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":19171}]}
+02/18/2025 21:46:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+02/18/2025 21:46:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+02/18/2025 21:46:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+02/18/2025 21:46:16 Central Standard Time : Information : Starting server 'clientWatch' at 'net.pipe://191996CD1C' (at '/Users/coycrowder/.ServiceHub/a11871aca6/191996CD1C').
+02/18/2025 21:46:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 440
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://191996CD1C","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["a11871aca6"],"PipeName":"a11871aca6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+02/18/2025 21:46:16 Central Standard Time : Information : External client connect to client watch
+02/18/2025 21:46:17 Central Standard Time : Information : Client connected to controller
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+02/18/2025 21:46:17 Central Standard Time : Information : Client connected to controller
+02/18/2025 21:46:17 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":19171}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 440
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://191996CD1C","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["a11871aca6"],"PipeName":"a11871aca6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 16304
+
+
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: {"jsonrpc":"2.0","id":3,"method":"RegisterServicesAsync","params":[{"Microsoft.VisualStudio.CpsProjectIconSourceService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}},"Microsoft.VisualStudio.LaunchConfigurationService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.CompositionService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory"}},"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/e
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: xtensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService+Factory"}},"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService+Factory"}},"Microsoft.VisualStudio.Debugger.HotReloadClientService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadClientService+Factory"}},"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: /darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService+Factory"}},"Microsoft.VisualStudio.Debugger.ManagedHotReloadService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadService+Factory"}},"Microsoft.VisualStudio.Debugger.SourceLinkService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.SourceLinkService+Factory"}},"Microsoft.VisualStudio.Debugger.SymbolLocatorService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.BrokeredServices.SymbolLocator.SymbolLocatorService+Factory"}},"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}},"Microsoft.VisualStudio.TestWindow.VSCode.Service":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceB
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: aseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}},"Microsoft.VisualStudio.AspireServer":{"host":"dotnet.aspireServer","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.AspireServer.dll","fullClassName":"Microsoft.WebTools.AspireServer.ServiceFactory"}},"Microsoft.VisualStudio.Debugger.AspireService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.Aspire.VSCode.Services.dll","fullClassName":"Microsoft.WebTools.Aspire.VSCode.Services.ServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]},"Microsoft.VisualStudio.ProjectSystem.DebugTargetFrameworkService":{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services/Microsoft.ProjectSystem.Managed.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Services.DebugTargetFrameworkServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]},"Microsoft.VisualStudio.ProjectQueryTestService":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.ProjectQueryTestServiceFactory"}},"helloServiceHubDotNetHost":{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.HelloWorldFactory"}}}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 351
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/cc9deead39"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 359
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/bdf15d4219"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 336
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c054ffe42"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 370
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/31fa9d96a3"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.TestWindow.VSCode.Service' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.Service' has not been loaded before. Loading now.
+02/18/2025 21:46:17 Central Standard Time : Information : Discovering configuration files for 'HostConfigurationFileManager'
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file 'dotnet.projectSystem' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.aspireServer.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file 'dotnet.aspireServer' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.aspireServer.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Found configuration file 'dotnet' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.servicehub.host.json"
+02/18/2025 21:46:17 Central Standard Time : Information : Loading host info for 'dotnet' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.servicehub.host.json'
+02/18/2025 21:46:17 Central Standard Time : Information : Starting server 'hostCallback' at 'net.pipe://19199BA09E' (at '/Users/coycrowder/.ServiceHub/a11871aca6/19199BA09E').
+02/18/2025 21:46:17 Central Standard Time : Information : Launching 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host with command line: '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE net.pipe://19199BA09E "/TelemetrySession:{\"TelemetryLevel\":\"all\",\"IsOptedIn\":false,\"HostName\":\"Default\",\"AppInsightsInstrumentationKey\":null,\"AsimovInstrumentationKey\":null,\"CollectorApiKey\":\"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255\",\"AppId\":1010,\"UserId\":\"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5\",\"Id\":\"041720f8-e8bd-42c2-9808-55141d7dc9591739930138573\",\"ProcessStartTime\":133844103732174302,\"SkuName\":null,\"VSExeVersion\":null,\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"'
+02/18/2025 21:46:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 374
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/11a9560e30"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:17 Central Standard Time : Information : Launched 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host. PID: 19217
+02/18/2025 21:46:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider' has not been loaded before. Loading now.
+02/18/2025 21:46:17 Central Standard Time : Information : Loading host info for 'dotnet.projectSystem' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json'
+02/18/2025 21:46:17 Central Standard Time : Information : Launching 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host with command line: '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE net.pipe://19199BA09E "/TelemetrySession:{\"TelemetryLevel\":\"all\",\"IsOptedIn\":false,\"HostName\":\"Default\",\"AppInsightsInstrumentationKey\":null,\"AsimovInstrumentationKey\":null,\"CollectorApiKey\":\"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255\",\"AppId\":1010,\"UserId\":\"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5\",\"Id\":\"041720f8-e8bd-42c2-9808-55141d7dc9591739930138573\",\"ProcessStartTime\":133844103732174302,\"SkuName\":null,\"VSExeVersion\":null,\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"'
+02/18/2025 21:46:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROOT' to '/usr/local/share/dotnet' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+02/18/2025 21:46:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROLL_FORWARD_TO_PRERELEASE' to '1' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+02/18/2025 21:46:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROLL_FORWARD' to 'LatestMajor' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+02/18/2025 21:46:17 Central Standard Time : Information : Launched 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host. PID: 19220
+02/18/2025 21:46:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 21:46:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' has not been loaded before. Loading now.
+02/18/2025 21:46:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' has not been loaded before. Loading now.
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService write: Content-Length: 116
+
+{"jsonrpc":"2.0","id":2,"method":"InitializeHostAsync","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService read: Content-Length: 79
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService write: Content-Length: 1047
+
+{"jsonrpc":"2.0","id":4,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/cc9deead39","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService write: Content-Length: 1028
+
+{"jsonrpc":"2.0","id":3,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/31fa9d96a3","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/68d3edf223"}
+02/18/2025 21:46:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.TestWindow.VSCode.Service\' at '/Users/coycrowder/.ServiceHub/a11871aca6/68d3edf223 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/41ddfaec5c"}
+02/18/2025 21:46:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/41ddfaec5c @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":3,"result":{"RequestId":"bbb161c5-c330-44c4-8192-17645812aa26","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/68d3edf223","IsEmpty":false}}
+02/18/2025 21:46:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":6,"result":{"RequestId":"6b7d5574-1044-47a4-bca9-050cc29a7f10","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/41ddfaec5c","IsEmpty":false}}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService read: Content-Length: 110
+
+{"jsonrpc":"2.0","method":"HostServicesStartedAsync","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+02/18/2025 21:46:18 Central Standard Time : Information : LocationService write: Content-Length: 116
+
+{"jsonrpc":"2.0","id":2,"method":"InitializeHostAsync","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 93
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService write: Content-Length: 1070
+
+{"jsonrpc":"2.0","id":3,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/11a9560e30","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 1040
+
+{"jsonrpc":"2.0","id":4,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/bdf15d4219","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 994
+
+{"jsonrpc":"2.0","id":5,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c054ffe42"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/aa05287c99"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/aa05287c99 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":7,"result":{"RequestId":"9a58831c-0263-48a6-b5e7-5b43d9458dac","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/aa05287c99","IsEmpty":false}}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/962c85f895"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider\' at '/Users/coycrowder/.ServiceHub/a11871aca6/962c85f895 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":5,"result":{"RequestId":"b425fc30-4740-4180-bee2-ba2afbee7ae9","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/962c85f895","IsEmpty":false}}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 124
+
+{"jsonrpc":"2.0","method":"HostServicesStartedAsync","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}Content-Length: 87
+
+{"jsonrpc":"2.0","id":5,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/6fbbf3bf33"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/6fbbf3bf33 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":4,"result":{"RequestId":"909e1820-b048-4125-a7a6-7507465eddf6","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6fbbf3bf33","IsEmpty":false}}
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 373
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/1daad21b12"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service' has not been loaded before. Loading now.
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService write: Content-Length: 1096
+
+{"jsonrpc":"2.0","id":5,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/1daad21b12","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":5,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/a75bd551a3"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service\' at '/Users/coycrowder/.ServiceHub/a11871aca6/a75bd551a3 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":8,"result":{"RequestId":"1886d5b2-fe7d-4883-9417-7692d1b78af9","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a75bd551a3","IsEmpty":false}}
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 376
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.3"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/53aee80332"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' has not been loaded before. Loading now.
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService write: Content-Length: 1059
+
+{"jsonrpc":"2.0","id":6,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/53aee80332","__servicehub__RequestedServiceVersion":"0.3"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":6,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/9acd6a0be3"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/9acd6a0be3 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":9,"result":{"RequestId":"8253b514-aa0f-4ddd-af99-0aa9328d772d","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/9acd6a0be3","IsEmpty":false}}
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 359
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d9092d2f9d"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.CompositionService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.CompositionService' has not been loaded before. Loading now.
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService write: Content-Length: 1038
+
+{"jsonrpc":"2.0","id":7,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d9092d2f9d","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":7,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/4246256631"}
+02/18/2025 21:46:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.CompositionService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/4246256631 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":10,"result":{"RequestId":"d7de65e1-c49a-4dd2-845e-c72c62ba545c","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/4246256631","IsEmpty":false}}
+02/18/2025 21:46:20 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 354
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.CpsProjectIconSourceService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8746e981bc"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:20 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.CpsProjectIconSourceService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:20 Central Standard Time : Information : Service 'Microsoft.VisualStudio.CpsProjectIconSourceService' has not been loaded before. Loading now.
+02/18/2025 21:46:20 Central Standard Time : Information : LocationService write: Content-Length: 1039
+
+{"jsonrpc":"2.0","id":8,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.CpsProjectIconSourceService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8746e981bc","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:20 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":8,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/223db41ac0"}
+02/18/2025 21:46:20 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.CpsProjectIconSourceService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/223db41ac0 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:20 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":11,"result":{"RequestId":"666dcb7b-fdb1-4ccc-84a9-7f82ff4fc7fb","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/223db41ac0","IsEmpty":false}}
+02/18/2025 21:46:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 375
+
+{"jsonrpc":"2.0","id":12,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/34e07bca94"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:22 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:22 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' has not been loaded before. Loading now.
+02/18/2025 21:46:22 Central Standard Time : Information : LocationService write: Content-Length: 1070
+
+{"jsonrpc":"2.0","id":9,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/34e07bca94","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:22 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":9,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/939bd1f08d"}
+02/18/2025 21:46:22 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/939bd1f08d @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":12,"result":{"RequestId":"e7e77a5b-0300-4b18-bad1-37341562f08e","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/939bd1f08d","IsEmpty":false}}
+02/18/2025 21:46:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 377
+
+{"jsonrpc":"2.0","id":13,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.3"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/0eda84822c"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:25 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:25 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' has not been loaded before. Loading now.
+02/18/2025 21:46:25 Central Standard Time : Information : LocationService write: Content-Length: 1060
+
+{"jsonrpc":"2.0","id":10,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/0eda84822c","__servicehub__RequestedServiceVersion":"0.3"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:46:25 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":10,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/c35693cb7b"}
+02/18/2025 21:46:25 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/c35693cb7b @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:46:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":13,"result":{"RequestId":"ede3c7d7-7a9c-47ce-b424-4e39000df11e","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/c35693cb7b","IsEmpty":false}}
+02/18/2025 21:47:50 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 371
+
+{"jsonrpc":"2.0","id":14,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/296c783597"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:47:50 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:47:50 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' has not been loaded before. Loading now.
+02/18/2025 21:47:50 Central Standard Time : Information : LocationService write: Content-Length: 1028
+
+{"jsonrpc":"2.0","id":6,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/296c783597","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:47:50 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":6,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/717d8d962b"}
+02/18/2025 21:47:50 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/717d8d962b @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:47:50 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":14,"result":{"RequestId":"556dee89-db84-4044-995e-5fc2d6f61444","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/717d8d962b","IsEmpty":false}}
+02/18/2025 21:59:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":15,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/74d21288a0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:18 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:18 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 21:59:18 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":11,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/74d21288a0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:18 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":11,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/b9a1294523"}
+02/18/2025 21:59:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/b9a1294523 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":15,"result":{"RequestId":"71110bef-6bc1-4f83-a2de-ba4aada51d41","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/b9a1294523","IsEmpty":false}}
+02/18/2025 21:59:20 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":16,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d3f17ee3eb"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:20 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:20 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 21:59:20 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":12,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d3f17ee3eb"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:20 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":12,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/05f9b6beea"}
+02/18/2025 21:59:20 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/05f9b6beea @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:20 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":16,"result":{"RequestId":"9972f269-c1c3-403f-bf75-59d9335d4bfb","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/05f9b6beea","IsEmpty":false}}
+02/18/2025 21:59:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":17,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/9c16535a1f"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:22 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:22 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 21:59:22 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":13,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/9c16535a1f"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:22 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":13,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/02f3e44ae0"}
+02/18/2025 21:59:22 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/02f3e44ae0 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":17,"result":{"RequestId":"03d4565b-c637-4fb5-a2c4-60752cac54bb","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/02f3e44ae0","IsEmpty":false}}
+02/18/2025 21:59:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":18,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a72cfc7755"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:32 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:32 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 21:59:32 Central Standard Time : Information : LocationService write: Content-Length: 1045
+
+{"jsonrpc":"2.0","id":7,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a72cfc7755","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:32 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":7,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/61c3329159"}
+02/18/2025 21:59:32 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/61c3329159 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":18,"result":{"RequestId":"67a38bd4-271c-4d43-98d1-6fddaf488ebb","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/61c3329159","IsEmpty":false}}
+02/18/2025 21:59:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":19,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7650ad805a"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:32 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:32 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 21:59:32 Central Standard Time : Information : LocationService write: Content-Length: 1045
+
+{"jsonrpc":"2.0","id":8,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7650ad805a","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 21:59:32 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":8,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/f405a50bd3"}
+02/18/2025 21:59:32 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/f405a50bd3 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 21:59:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":19,"result":{"RequestId":"bd516c9f-716c-4f45-8c49-46995068fa51","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/f405a50bd3","IsEmpty":false}}
+02/18/2025 22:01:05 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":20,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/cfa4a52d77"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:05 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:05 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 22:01:05 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":14,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/cfa4a52d77"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:05 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":14,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/0d731dad85"}
+02/18/2025 22:01:05 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/0d731dad85 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:05 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":20,"result":{"RequestId":"fd2efb61-94c1-4563-bcf6-2f93dbb32e2d","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/0d731dad85","IsEmpty":false}}
+02/18/2025 22:01:12 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":21,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6f59be1564"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:12 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:12 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 22:01:12 Central Standard Time : Information : LocationService write: Content-Length: 1045
+
+{"jsonrpc":"2.0","id":9,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6f59be1564","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:12 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":9,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/5d54f0f814"}
+02/18/2025 22:01:12 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/5d54f0f814 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:12 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":21,"result":{"RequestId":"12f401dc-5bca-4967-9f1e-d24b258cf22c","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5d54f0f814","IsEmpty":false}}
+02/18/2025 22:01:12 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":22,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/add090fa4c"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:12 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:12 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 22:01:12 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":10,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/add090fa4c","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:01:12 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":10,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/842ee33f91"}
+02/18/2025 22:01:12 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/842ee33f91 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:01:12 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":22,"result":{"RequestId":"0115ca58-962f-446c-9d1a-fcbc0db4a5c7","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/842ee33f91","IsEmpty":false}}
+02/18/2025 22:19:27 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":23,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/50730407f1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:27 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:27 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 22:19:27 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":15,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/50730407f1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:27 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":15,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/c167196ff6"}
+02/18/2025 22:19:27 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/c167196ff6 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:27 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":23,"result":{"RequestId":"8fff232a-20d7-4b9e-91a1-b7a6dfae9496","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/c167196ff6","IsEmpty":false}}
+02/18/2025 22:19:34 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":24,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/e58cf59b68"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:34 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:34 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 22:19:34 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":11,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/e58cf59b68","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:34 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":11,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/f15ec2f1f4"}
+02/18/2025 22:19:34 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/f15ec2f1f4 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:34 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":24,"result":{"RequestId":"dd38af15-028e-4ea4-ba27-4ee4da58236c","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/f15ec2f1f4","IsEmpty":false}}
+02/18/2025 22:19:34 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":25,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/99e10cf5dd"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:34 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:34 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 22:19:34 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":12,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/99e10cf5dd","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:19:34 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":12,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/67b1b19dbc"}
+02/18/2025 22:19:34 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/67b1b19dbc @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:19:34 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":25,"result":{"RequestId":"b70cb1dc-1d51-4a88-93fb-e381039eda2e","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/67b1b19dbc","IsEmpty":false}}
+02/18/2025 22:30:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":26,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/96928a136a"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:07 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:07 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 22:30:07 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":16,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/96928a136a"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:07 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":16,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/6008739092"}
+02/18/2025 22:30:07 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/6008739092 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:07 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":26,"result":{"RequestId":"062bd406-7275-4261-b1e1-3053b6795195","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6008739092","IsEmpty":false}}
+02/18/2025 22:30:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":27,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/232fed1dad"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 22:30:19 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":17,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/232fed1dad"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:19 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":17,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/a8b3902a7c"}
+02/18/2025 22:30:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/a8b3902a7c @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":27,"result":{"RequestId":"7b1adc7a-46bf-4a63-9c81-77aa59d7f0b7","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a8b3902a7c","IsEmpty":false}}
+02/18/2025 22:30:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":28,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/401a07b475"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:25 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:25 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 22:30:25 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":13,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/401a07b475","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:25 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":13,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/e914cd17bb"}
+02/18/2025 22:30:25 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/e914cd17bb @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":28,"result":{"RequestId":"fa2f2ac8-d887-4d89-b167-bdd8352d0310","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/e914cd17bb","IsEmpty":false}}
+02/18/2025 22:30:26 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":29,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/4ec61580c2"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:26 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:26 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 22:30:26 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":14,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/4ec61580c2","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 22:30:26 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":14,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/14572b7555"}
+02/18/2025 22:30:26 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/14572b7555 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 22:30:26 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":29,"result":{"RequestId":"34e1b881-3ab1-43b1-b73a-05cbcdee546a","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/14572b7555","IsEmpty":false}}
+02/18/2025 23:15:06 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":30,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/fc04171768"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:06 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:06 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:15:06 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":18,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/fc04171768"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:06 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":18,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/df568f32a8"}
+02/18/2025 23:15:06 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/df568f32a8 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:06 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":30,"result":{"RequestId":"287cfbac-fe52-48ad-a4e9-b75d90ec7d70","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/df568f32a8","IsEmpty":false}}
+02/18/2025 23:15:41 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":31,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/50a641c564"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:41 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:41 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:15:41 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":19,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/50a641c564"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:41 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":19,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/ecd7a60463"}
+02/18/2025 23:15:41 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/ecd7a60463 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:41 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":31,"result":{"RequestId":"34e080c5-290c-4b2d-bd44-8c99d94167b8","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/ecd7a60463","IsEmpty":false}}
+02/18/2025 23:15:47 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":32,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/3f46cde91d"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:47 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:47 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 23:15:47 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":15,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/3f46cde91d","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:47 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":15,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/537a6a0347"}
+02/18/2025 23:15:47 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/537a6a0347 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:47 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":32,"result":{"RequestId":"0c7059a7-23ab-46ba-97a8-c2a5eae4e00b","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/537a6a0347","IsEmpty":false}}
+02/18/2025 23:15:48 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":33,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/e44ad1da5f"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:48 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:48 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 23:15:48 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":16,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/e44ad1da5f","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:15:48 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":16,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/0a45d9978c"}
+02/18/2025 23:15:48 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/0a45d9978c @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:15:48 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":33,"result":{"RequestId":"8183a366-cc27-49b9-af77-dddcd0c5d4c5","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/0a45d9978c","IsEmpty":false}}
+02/18/2025 23:16:13 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":34,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/217228d4b5"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:13 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:13 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:16:13 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":20,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/217228d4b5"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:13 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":20,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/a841bf31b7"}
+02/18/2025 23:16:13 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/a841bf31b7 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:13 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":34,"result":{"RequestId":"7afef921-8b29-4759-91bb-e1ee7a137c89","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a841bf31b7","IsEmpty":false}}
+02/18/2025 23:16:26 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":35,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8f80326ff1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:26 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:26 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:16:26 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":21,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8f80326ff1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:26 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":21,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/b7a790ec42"}
+02/18/2025 23:16:26 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/b7a790ec42 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:26 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":35,"result":{"RequestId":"3e45e3c8-3cb4-4f01-98b5-774e6d60490e","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/b7a790ec42","IsEmpty":false}}
+02/18/2025 23:16:33 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":36,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7cc161e961"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:33 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:33 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 23:16:33 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":17,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7cc161e961","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:33 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":17,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/76f1098112"}
+02/18/2025 23:16:33 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/76f1098112 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:33 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":36,"result":{"RequestId":"93a9c0af-8da1-47b4-ab7c-ed6797e91f5d","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/76f1098112","IsEmpty":false}}
+02/18/2025 23:16:33 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":37,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c37f6fa85"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:33 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:33 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 23:16:33 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":18,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c37f6fa85","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:16:33 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":18,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/8914edd281"}
+02/18/2025 23:16:33 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/8914edd281 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:16:33 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":37,"result":{"RequestId":"bf0d64df-c56b-4c85-b817-73adccad29c2","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8914edd281","IsEmpty":false}}
+02/18/2025 23:28:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":38,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/b881e36056"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:32 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:32 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:28:32 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":22,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/b881e36056"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:32 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":22,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/a1722ee92f"}
+02/18/2025 23:28:32 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/a1722ee92f @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:32 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":38,"result":{"RequestId":"44bfb753-a215-43f8-8b1d-c7772fb24321","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a1722ee92f","IsEmpty":false}}
+02/18/2025 23:28:39 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":39,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/643c18c8f9"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:39 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:39 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 23:28:39 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":19,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/643c18c8f9","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:39 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":19,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/597ab10617"}
+02/18/2025 23:28:39 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/597ab10617 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:39 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":39,"result":{"RequestId":"d97f6c7b-37ad-4bbd-93f0-c6b6f9f13e32","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/597ab10617","IsEmpty":false}}
+02/18/2025 23:28:39 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":40,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c48b66a37"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:39 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:39 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 23:28:39 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":20,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5c48b66a37","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:28:39 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":20,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/733547c131"}
+02/18/2025 23:28:39 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/733547c131 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:28:39 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":40,"result":{"RequestId":"82084ee5-f4d0-44ec-b6d5-f9334d0bfc19","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/733547c131","IsEmpty":false}}
+02/18/2025 23:33:45 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":41,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/c489d04bea"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:33:45 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:33:45 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:33:45 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":23,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/c489d04bea"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:33:45 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":23,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/7e7f167ffd"}
+02/18/2025 23:33:45 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/7e7f167ffd @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:33:45 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":41,"result":{"RequestId":"91d83c27-e130-45e5-b8b5-679947630bdf","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7e7f167ffd","IsEmpty":false}}
+02/18/2025 23:33:55 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":42,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/4b113f973f"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:33:55 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:33:55 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:33:55 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":24,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/4b113f973f"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:33:55 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":24,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/8ddf6d79c8"}
+02/18/2025 23:33:55 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/8ddf6d79c8 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:33:55 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":42,"result":{"RequestId":"b6f4fb7f-52b1-4dce-84d2-a7987a7eff8b","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/8ddf6d79c8","IsEmpty":false}}
+02/18/2025 23:34:02 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":43,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7a0876d4cc"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:34:02 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:34:02 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 23:34:02 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":21,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7a0876d4cc","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:34:02 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":21,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/618553769b"}
+02/18/2025 23:34:02 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/618553769b @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:34:02 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":43,"result":{"RequestId":"8ba8b733-a1f0-49dd-a782-3cf93bd458a1","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/618553769b","IsEmpty":false}}
+02/18/2025 23:34:02 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":44,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/24fa404864"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:34:02 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:34:02 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 23:34:02 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":22,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/24fa404864","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:34:02 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":22,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/9a8140a897"}
+02/18/2025 23:34:02 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/9a8140a897 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:34:02 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":44,"result":{"RequestId":"02ef39db-7c9d-474c-8e1e-63f0cea6c823","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/9a8140a897","IsEmpty":false}}
+02/18/2025 23:35:54 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":45,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/2d7ee585b2"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:35:54 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/18/2025 23:35:54 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/18/2025 23:35:54 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":25,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/2d7ee585b2"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:35:54 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":25,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/5b1264337d"}
+02/18/2025 23:35:54 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/5b1264337d @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:35:54 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":45,"result":{"RequestId":"0cc3e2d8-6889-4715-82c0-7b113b2b2b21","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5b1264337d","IsEmpty":false}}
+02/18/2025 23:36:00 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":46,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5cb47d7685"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:36:00 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:36:00 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/18/2025 23:36:00 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":23,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5cb47d7685","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:36:00 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":23,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/d816ba880a"}
+02/18/2025 23:36:00 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/d816ba880a @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:36:00 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":46,"result":{"RequestId":"73a9a03c-3a91-4590-a88d-324626bdcfb6","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d816ba880a","IsEmpty":false}}
+02/18/2025 23:36:00 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":47,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/26c456a5e2"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:36:00 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/18/2025 23:36:00 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/18/2025 23:36:00 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":24,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/26c456a5e2","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/18/2025 23:36:00 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":24,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/80c3b2c921"}
+02/18/2025 23:36:00 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/80c3b2c921 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/18/2025 23:36:00 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":47,"result":{"RequestId":"583beeff-9344-442a-be74-e5220c814e18","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/80c3b2c921","IsEmpty":false}}
+02/19/2025 00:02:05 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":48,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/92a8f0c093"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:05 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:05 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/19/2025 00:02:05 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":26,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/92a8f0c093"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:05 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":26,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/415253b2e7"}
+02/19/2025 00:02:05 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/415253b2e7 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:05 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":48,"result":{"RequestId":"d08d3fa7-8409-485d-95df-9e8b817d3d53","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/415253b2e7","IsEmpty":false}}
+02/19/2025 00:02:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":49,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/47c654c4ce"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/19/2025 00:02:19 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":25,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/47c654c4ce","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:19 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":25,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/947102f073"}
+02/19/2025 00:02:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/947102f073 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":49,"result":{"RequestId":"52a18c94-1bbe-4bf2-b77f-0849cd52ec12","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/947102f073","IsEmpty":false}}
+02/19/2025 00:02:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":50,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6ae241aa00"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/19/2025 00:02:19 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":26,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/6ae241aa00","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:02:19 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":26,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/0e76caa5ba"}
+02/19/2025 00:02:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/0e76caa5ba @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:02:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":50,"result":{"RequestId":"f5fcf815-9b7e-49cb-941c-06fc98978c01","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/0e76caa5ba","IsEmpty":false}}
+02/19/2025 00:14:47 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":51,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a460c60ef0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:47 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:47 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/19/2025 00:14:47 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":27,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a460c60ef0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:47 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":27,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/229e845bf2"}
+02/19/2025 00:14:47 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/229e845bf2 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:47 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":51,"result":{"RequestId":"71bebe30-f8a3-4664-97c4-c5540a44c006","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/229e845bf2","IsEmpty":false}}
+02/19/2025 00:14:53 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":52,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5a11df3a8a"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:53 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:53 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/19/2025 00:14:53 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":27,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/5a11df3a8a","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:53 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":27,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/749027d6fa"}
+02/19/2025 00:14:53 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/749027d6fa @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:53 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":52,"result":{"RequestId":"e1af7be0-06c1-4203-9f8f-9172734e632c","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/749027d6fa","IsEmpty":false}}
+02/19/2025 00:14:53 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":53,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/3dfb73d954"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:53 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:53 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/19/2025 00:14:53 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":28,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/3dfb73d954","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:14:53 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":28,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/b2326c8269"}
+02/19/2025 00:14:53 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/b2326c8269 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:14:53 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":53,"result":{"RequestId":"0dfdad75-eca1-4f08-aded-72a893a6f76a","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/b2326c8269","IsEmpty":false}}
+02/19/2025 00:29:58 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":54,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/34f4371dab"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:29:58 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/19/2025 00:29:58 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/19/2025 00:29:58 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":28,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/34f4371dab"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:29:58 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":28,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/d5337cf270"}
+02/19/2025 00:29:58 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/d5337cf270 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:29:58 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":54,"result":{"RequestId":"68204fd8-a7d7-4f32-a892-bc2926da6f26","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d5337cf270","IsEmpty":false}}
+02/19/2025 00:30:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 337
+
+{"jsonrpc":"2.0","id":55,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7ebb180b55"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:15 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:15 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+02/19/2025 00:30:15 Central Standard Time : Information : LocationService write: Content-Length: 995
+
+{"jsonrpc":"2.0","id":29,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/7ebb180b55"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:15 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":29,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/f967e3ad8b"}
+02/19/2025 00:30:15 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/a11871aca6/f967e3ad8b @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":55,"result":{"RequestId":"b33cd55b-f0ce-40b4-a741-277742425680","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/f967e3ad8b","IsEmpty":false}}
+02/19/2025 00:30:21 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":56,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/633308e55b"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:21 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:21 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2' has not been loaded before. Loading now.
+02/19/2025 00:30:21 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":29,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/633308e55b","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:21 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":29,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/d0702538ea"}
+02/19/2025 00:30:21 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/d0702538ea @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:21 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":56,"result":{"RequestId":"92976193-0a30-4102-a4e2-6d6a998f3c5c","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/d0702538ea","IsEmpty":false}}
+02/19/2025 00:30:21 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 380
+
+{"jsonrpc":"2.0","id":57,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a6a197689a"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:21 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:21 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2' has not been loaded before. Loading now.
+02/19/2025 00:30:21 Central Standard Time : Information : LocationService write: Content-Length: 1046
+
+{"jsonrpc":"2.0","id":30,"method":"StartServiceAsync","params":[{"name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.16.6-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/a6a197689a","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+02/19/2025 00:30:21 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":30,"result":"/Users/coycrowder/.ServiceHub/a11871aca6/cc78ad8ae8"}
+02/19/2025 00:30:21 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2\' at '/Users/coycrowder/.ServiceHub/a11871aca6/cc78ad8ae8 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:19171)
+02/19/2025 00:30:21 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":57,"result":{"RequestId":"a8287df1-1c0a-410c-9b35-d85c3819b283","PipeName":"/Users/coycrowder/.ServiceHub/a11871aca6/cc78ad8ae8","IsEmpty":false}}
+02/19/2025 00:33:52 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+02/19/2025 00:33:52 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService read: Content-Length: 108
+
+{"jsonrpc":"2.0","method":"HostServicesEndedAsync","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+02/19/2025 00:33:52 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+02/19/2025 00:33:52 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+02/19/2025 00:33:52 Central Standard Time : Information : External client disconnected from client watch.
+02/19/2025 00:33:52 Central Standard Time : Information : Starting fast shutdown
+02/19/2025 00:33:52 Central Standard Time : Information : Stopping the location service server.
+02/19/2025 00:33:52 Central Standard Time : Information : Releasing single controller instance mutex.
+02/19/2025 00:33:52 Central Standard Time : Information : Exiting hub controller.
+02/19/2025 00:33:52 Central Standard Time : Information : Stopping host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' PID: 19217
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService write: Content-Length: 58
+
+{"jsonrpc":"2.0","id":31,"method":"ExitAsync","params":[]}
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService read: Content-Length: 39
+
+{"jsonrpc":"2.0","id":31,"result":null}
+02/19/2025 00:33:52 Central Standard Time : Information : Stopping host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' PID: 19220
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService write: Content-Length: 58
+
+{"jsonrpc":"2.0","id":30,"method":"ExitAsync","params":[]}
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService read: end of stream
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService read: Content-Length: 39
+
+{"jsonrpc":"2.0","id":30,"result":null}
+02/19/2025 00:33:52 Central Standard Time : Information : Host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' has been removed from the hosts cache.
+02/19/2025 00:33:52 Central Standard Time : Information : Waiting for host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' with pid '19217' to exit...
+02/19/2025 00:33:52 Central Standard Time : Information : Waiting for all hosts to shutdown. Running hosts: dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE, dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE
+02/19/2025 00:33:52 Central Standard Time : Information : LocationService read: end of stream
+02/19/2025 00:33:52 Central Standard Time : Information : Host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' has been removed from the hosts cache.
+02/19/2025 00:33:52 Central Standard Time : Information : Waiting for host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' with pid '19220' to exit...
+02/19/2025 00:33:52 Central Standard Time : Information : code: 'Hub host 'C94B8CFE-E3FD-4BAF-A941-2866DBB566FE', PID: 19217 exited.' 0.
+02/19/2025 00:33:52 Central Standard Time : Information : code: 'Hub host 'C94B8CFE-E3FD-4BAF-A941-2866DBB566FE', PID: 19220 exited.' 0.
+02/19/2025 00:33:52 Central Standard Time : Information : All hosts have exited.
+02/19/2025 00:33:52 Central Standard Time : Information : Controller terminating with exit code '0'.

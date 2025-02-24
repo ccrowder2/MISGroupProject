@@ -1,0 +1,60 @@
+﻿10/14/2024 12:30:12 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+10/14/2024 12:30:12 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 790
+
+{"traceparent":"00-3b61fa1e6cf84b4993de25bb8d673b2d-d1f9c42fbad8ff47-00","jsonrpc":"2.0","id":2,"method":"SubscribeQueryResultsAsync","params":["{\"context\":\"Projects\",\"query\":{\"$properties\":[\"Id\",\"Name\",\"Path\",\"Guid\",\"ActiveConfigurations\"],\"ActiveConfigurations\":{\"$properties\":[\"Id\",\"Name\",\"ConfigurationName\",\"PlatformName\",\"Capabilities\",\"OutputGroups\",\"BuildProperties\"],\"BuildProperties\":{\"$properties\":[\"Id\",\"Name\",\"Value\",\"StorageType\"]},\"OutputGroups\":{\"$properties\":[\"Id\",\"Name\",\"Outputs\"],\"Outputs\":{\"$properties\":[\"Name\",\"FinalOutputPath\",\"IsKeyOutput\"]},\"$filter\":{\"OutputGroupsByName\":[[\"Built\"]]}}},\"$filter\":{\"ProjectsByCapabilities\":[\"TestContainer\"]}}}",{"__jsonrpc_marshaled":1,"handle":0}]}
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "Dispose" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.Dispose() (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "GetServiceIdentityAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "ExecuteQueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "ExecuteRemoteExecutableAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "SubscribeQueryResultsAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "TrackQueryUpdatesAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "QueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "GetServiceIdentity" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "ExecuteQuery" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "ExecuteRemoteExecutable" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "SubscribeQueryResults" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "TrackQueryUpdates" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "Query" -> Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService)
+10/14/2024 12:30:12 Central Standard Time: Information : 3 :Listening started.
+10/14/2024 12:30:12 Central Standard Time: Information : 7 :{"id":2,"method":"SubscribeQueryResultsAsync"}
+10/14/2024 12:30:12 Central Standard Time: Information : 6 :Received request "2" for method "SubscribeQueryResultsAsync".
+10/14/2024 12:30:12 Central Standard Time: Information : 9 :Invoking Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken)
+10/14/2024 12:30:12 Central Standard Time : Transfer : Transfer, relatedActivityId=fdf29a8e-d4d6-4f10-ba37-54777e1b3940
+10/14/2024 12:30:12 Central Standard Time : Start : SubscribeQueryResultsAsync
+10/14/2024 12:30:12 Central Standard Time : Stop : SubscribeQueryResultsAsync
+10/14/2024 12:30:12 Central Standard Time : Transfer : Transfer, relatedActivityId=1efa613b-f86c-494b-93de-25bb8d673b2d
+10/14/2024 12:30:12 Central Standard Time : Information : Added local RPC method "$/invokeProxy/0/dispose" -> System.IDisposable.Dispose() (Microsoft.VisualStudio.ProjectSystem.Query.Execution.QuerySubscription`1[Microsoft.VisualStudio.ProjectSystem.Query.IEntityValue])
+10/14/2024 12:30:12 Central Standard Time: Information : 8 :{"id":2}
+10/14/2024 12:30:12 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 70
+
+{"jsonrpc":"2.0","id":2,"result":{"__jsonrpc_marshaled":1,"handle":0}}
+10/14/2024 12:30:13 Central Standard Time: Information : 8 :{"id":null,"method":"$/invokeProxy/0/onNext"}
+10/14/2024 12:30:13 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 262
+
+{"traceparent":"00-8e9af2fdd6d4104fba3754777e1b3940-185a09408ff1e344-01","jsonrpc":"2.0","method":"$/invokeProxy/0/onNext","params":["{\"Versions\":{\"CpsProject:0:10-7.Debug|AnyCPU\":1,\"ProjectsStateUpdates:Version\":0,\"Workspace:Version\":1},\"Items\":[]}"]}
+10/14/2024 12:43:23 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 64
+
+{"jsonrpc":"2.0","method":"$/invokeProxy/0/dispose","params":[]}Content-Length: 97
+
+{"jsonrpc":"2.0","method":"$/releaseMarshaledObject","params":{"handle":0,"ownedBySender":false}}
+10/14/2024 12:43:23 Central Standard Time: Information : 7 :{"id":null,"method":"$/invokeProxy/0/dispose"}
+10/14/2024 12:43:23 Central Standard Time: Information : 6 :Received notification for method "$/invokeProxy/0/dispose".
+10/14/2024 12:43:23 Central Standard Time: Information : 9 :Invoking System.IDisposable.Dispose()
+10/14/2024 12:43:23 Central Standard Time : Start : $/invokeProxy/0/dispose
+10/14/2024 12:43:23 Central Standard Time: Information : 7 :{"id":null,"method":"$/releaseMarshaledObject"}
+10/14/2024 12:43:23 Central Standard Time: Information : 6 :Received notification for method "$/releaseMarshaledObject".
+10/14/2024 12:43:23 Central Standard Time: Information : 9 :Invoking StreamJsonRpc.Reflection.MessageFormatterRpcMarshaledContextTracker.ReleaseMarshaledObject(Int64, Boolean)
+10/14/2024 12:43:23 Central Standard Time : Start : $/releaseMarshaledObject
+10/14/2024 12:43:23 Central Standard Time : Stop : $/invokeProxy/0/dispose
+10/14/2024 12:43:23 Central Standard Time : Stop : $/releaseMarshaledObject
+10/14/2024 12:43:24 Central Standard Time: Information : 8 :{"id":null,"method":"$/invokeProxy/0/onError"}
+10/14/2024 12:43:24 Central Standard Time: Information : 8 :{"id":null,"method":"$/releaseMarshaledObject"}
+10/14/2024 12:43:24 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 663
+
+{"traceparent":"00-8e9af2fdd6d4104fba3754777e1b3940-8a66800122580543-01","jsonrpc":"2.0","method":"$/invokeProxy/0/onError","params":[{"ClassName":"System.Threading.Tasks.TaskCanceledException","Message":"A task was canceled.","Data":null,"InnerException":null,"HelpURL":null,"StackTraceString":"   at Microsoft.VisualStudio.ProjectSystem.Query.Execution.QuerySubscription`1.<>c__DisplayClass10_0.<<Start>b__0>d.MoveNext()","RemoteStackTraceString":null,"RemoteStackIndex":0,"ExceptionMethod":null,"HResult":-2146233029,"Source":"System.Private.CoreLib","AssemblyName":"System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"}]}
+10/14/2024 12:43:24 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 169
+
+{"traceparent":"00-8e9af2fdd6d4104fba3754777e1b3940-7ad674a603e0c648-01","jsonrpc":"2.0","method":"$/releaseMarshaledObject","params":{"handle":0,"ownedBySender":false}}
+10/14/2024 12:43:24 Central Standard Time : Information : Waiting for 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' instance to complete its completionTask.
+10/14/2024 12:43:24 Central Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: end of stream
+10/14/2024 12:43:24 Central Standard Time: Information : 13 :Connection closing (RemotePartyTerminated: Reached end of stream.). 

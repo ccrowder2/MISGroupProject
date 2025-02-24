@@ -1,0 +1,774 @@
+﻿10/17/2024 12:21:14 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+10/17/2024 12:21:14 Central Standard Time : Information : Started controller with command line /Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller 19075490e6 /ControllerCooldownTimeout:30000 /TelemetrySession:{"TelemetryLevel":"all","IsOptedIn":false,"HostName":"Default","AppInsightsInstrumentationKey":null,"AsimovInstrumentationKey":null,"CollectorApiKey":"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255","AppId":1010,"UserId":"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5","Id":"9f3aa592-b20f-4c71-afeb-f55f344a61dc1729185667477","ProcessStartTime":133736592719213620,"SkuName":null,"VSExeVersion":null,"BucketFiltersToEnableWatsonForFaults":[],"BucketFiltersToAddDumpsToFaults":[]}
+10/17/2024 12:21:14 Central Standard Time : Information : Acquiring single controller instance mutex with name '-719505200-ServiceHubControllerSingleInstanceMutex'
+10/17/2024 12:21:14 Central Standard Time : Information : Acquired single controller instance mutex with name '-719505200-ServiceHubControllerSingleInstanceMutex'
+10/17/2024 12:21:14 Central Standard Time : Information : Controller cooldown timeout is set to 30000ms
+10/17/2024 12:21:14 Central Standard Time : Information : Starting server 'hubController' at 'net.pipe://19075490e6' (at '/Users/coycrowder/.ServiceHub/19075490e6/19075490e6').
+10/17/2024 12:21:14 Central Standard Time : Information : Successfully started server on pipe 19075490e6
+10/17/2024 12:21:14 Central Standard Time : Information : Triggered controller shutdown timer process.
+10/17/2024 12:21:14 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:14 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:14 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:14 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:14 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:14 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:14 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:14 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Starting server 'clientWatch' at 'net.pipe://456821375D' (at '/Users/coycrowder/.ServiceHub/19075490e6/456821375D').
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : External client connect to client watch
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 793
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.CpsProjectIconSourceService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 794
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 792
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 824
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 794
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 813
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 774
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.AspireSessionSynchronizeService+Factory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 782
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.GenericHotReloadAgentManagerService+Factory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 756
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadClientService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadClientService+Factory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 782
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:15 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:15 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:15 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 799
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService2"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueCsDevKitEngineService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 799
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService2"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedEditAndContinueRemoteDebuggerService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 782
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadAgentManagerService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 758
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.ManagedHotReloadService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.ManagedHotReloadService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 746
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.SourceLinkService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.SourceLinkService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 783
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.SymbolLocatorService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.BrokeredServices.SymbolLocator.SymbolLocatorService+Factory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 850
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 801
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 649
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.AspireServer"},{"host":"dotnet.aspireServer","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.AspireServer.dll","fullClassName":"Microsoft.WebTools.AspireServer.ServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 757
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.Debugger.AspireService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/WebTools/node_modules/@microsoft/vscode.webtools/Services/Microsoft.WebTools.Aspire.VSCode.Services.dll","fullClassName":"Microsoft.WebTools.Aspire.VSCode.Services.ServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 872
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.DebugTargetFrameworkService"},{"host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.projectsystem.managed/Services/Microsoft.ProjectSystem.Managed.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Services.DebugTargetFrameworkServiceFactory"},"friendServices":["Microsoft.VisualStudio.ProjectSystem.CompositionService"]}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 690
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.TemplateEngine.VSCode.TemplateService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.templateengine","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/dotnet-project-system-vscode/node_modules/@microsoft/vscode.templateengine/Microsoft.TemplateEngine.VSCode.dll","fullClassName":"Microsoft.TemplateEngine.VSCode.TemplateServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 739
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.CodeCoverage.VSCode.CollectionService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 731
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.CodeCoverage.VSCode.ReportService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.ReportServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 781
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"Microsoft.VisualStudio.ProjectQueryTestService"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.ProjectQueryTestServiceFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:21:16 Central Standard Time : Information : Client connected to controller
+10/17/2024 12:21:16 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":45675}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 441
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://456821375D","ControllerConfig":{"Executable":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/servicehub-controller-net60.darwin-x64/Microsoft.ServiceHub.Controller","Args":["19075490e6"],"PipeName":"19075490e6"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 747
+
+{"jsonrpc":"2.0","id":3,"method":"RegisterServiceAsync","params":[{"Name":"helloServiceHubDotNetHost"},{"host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-server-samples-sayhello.darwin-x64/Microsoft.VisualStudio.Samples.SayHello.dll","fullClassName":"Microsoft.VisualStudio.Samples.SayHello.HelloWorldFactory"}}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 370
+
+{"jsonrpc":"2.0","id":3,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f134fa30b8"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:16 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 359
+
+{"jsonrpc":"2.0","id":4,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f275347bc5"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 346
+
+{"jsonrpc":"2.0","id":5,"method":"requestServiceChannel","params":[{"Name":"Microsoft.CodeCoverage.VSCode.ReportService","Version":"1.0"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/c1de378463"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 351
+
+{"jsonrpc":"2.0","id":6,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/b5e5c35c00"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}Content-Length: 336
+
+{"jsonrpc":"2.0","id":7,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.LaunchConfigurationService"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f5ebcdb6ba"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:16 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' has not been loaded before. Loading now.
+10/17/2024 12:21:16 Central Standard Time : Information : Starting server 'hostCallback' at 'net.pipe://45682A466E' (at '/Users/coycrowder/.ServiceHub/19075490e6/45682A466E').
+10/17/2024 12:21:16 Central Standard Time : Information : Discovering configuration files for 'HostConfigurationFileManager'
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file 'dotnet.projectSystem' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.aspireServer.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file 'dotnet.aspireServer' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.aspireServer.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Found configuration file 'dotnet' at "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.servicehub.host.json"
+10/17/2024 12:21:16 Central Standard Time : Information : Loading host info for 'dotnet' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.servicehub.host.json'
+10/17/2024 12:21:16 Central Standard Time : Information : Launching 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host with command line: '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE net.pipe://45682A466E "/TelemetrySession:{\"TelemetryLevel\":\"all\",\"IsOptedIn\":false,\"HostName\":\"Default\",\"AppInsightsInstrumentationKey\":null,\"AsimovInstrumentationKey\":null,\"CollectorApiKey\":\"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255\",\"AppId\":1010,\"UserId\":\"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5\",\"Id\":\"9f3aa592-b20f-4c71-afeb-f55f344a61dc1729185667477\",\"ProcessStartTime\":133736592719213620,\"SkuName\":null,\"VSExeVersion\":null,\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"'
+10/17/2024 12:21:16 Central Standard Time : Information : Launched 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host. PID: 45709
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : Loading host info for 'dotnet.projectSystem' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/servicehub/dotnet.projectSystem.servicehub.host.json'
+10/17/2024 12:21:17 Central Standard Time : Information : Launching 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host with command line: '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE net.pipe://45682A466E "/TelemetrySession:{\"TelemetryLevel\":\"all\",\"IsOptedIn\":false,\"HostName\":\"Default\",\"AppInsightsInstrumentationKey\":null,\"AsimovInstrumentationKey\":null,\"CollectorApiKey\":\"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255\",\"AppId\":1010,\"UserId\":\"3d76fee3-fa9c-4203-8cf8-72c0143d8ff5\",\"Id\":\"9f3aa592-b20f-4c71-afeb-f55f344a61dc1729185667477\",\"ProcessStartTime\":133736592719213620,\"SkuName\":null,\"VSExeVersion\":null,\"BucketFiltersToEnableWatsonForFaults\":[],\"BucketFiltersToAddDumpsToFaults\":[]}"'
+10/17/2024 12:21:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROOT' to '/usr/local/share/dotnet' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+10/17/2024 12:21:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROLL_FORWARD_TO_PRERELEASE' to '0' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+10/17/2024 12:21:17 Central Standard Time : Information : Setting environment variable 'DOTNET_ROLL_FORWARD' to 'Major' in the "/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-green-server/platforms/darwin-x64/node_modules/@microsoft/visualstudio-code-servicehost.darwin-x64/Microsoft.VisualStudio.Code.ServiceHost" process.
+10/17/2024 12:21:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 374
+
+{"jsonrpc":"2.0","id":8,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e85fe7e25d"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:17 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 353
+
+{"jsonrpc":"2.0","id":9,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.CpsProjectIconSourceService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/29d6139bb1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:17 Central Standard Time : Information : Launched 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' hub host. PID: 45710
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.CodeCoverage.VSCode.ReportService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.CodeCoverage.VSCode.ReportService' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.TestWindow.VSCode.Service' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.Service' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.LaunchConfigurationService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.LaunchConfigurationService' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.CpsProjectIconSourceService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:17 Central Standard Time : Information : Service 'Microsoft.VisualStudio.CpsProjectIconSourceService' has not been loaded before. Loading now.
+10/17/2024 12:21:17 Central Standard Time : Information : LocationService write: Content-Length: 111
+
+{"jsonrpc":"2.0","id":2,"method":"initializeHost","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+10/17/2024 12:21:17 Central Standard Time : Information : LocationService read: Content-Length: 79
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+10/17/2024 12:21:17 Central Standard Time : Information : LocationService write: Content-Length: 1044
+
+{"jsonrpc":"2.0","id":5,"method":"startService","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.Service.TestWindowVSCodeServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/b5e5c35c00","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:17 Central Standard Time : Information : LocationService write: Content-Length: 974
+
+{"jsonrpc":"2.0","id":4,"method":"startService","params":[{"name":"Microsoft.CodeCoverage.VSCode.ReportService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.ReportServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/c1de378463","__servicehub__RequestedServiceVersion":"1.0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:17 Central Standard Time : Information : LocationService write: Content-Length: 1025
+
+{"jsonrpc":"2.0","id":3,"method":"startService","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f134fa30b8","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 111
+
+{"jsonrpc":"2.0","id":2,"method":"initializeHost","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":5,"result":"/Users/coycrowder/.ServiceHub/19075490e6/9c48a46626"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.TestWindow.VSCode.Service\' at '/Users/coycrowder/.ServiceHub/19075490e6/9c48a46626 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/19075490e6/692bfea731"}Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/19075490e6/d75fd4e421"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.CodeCoverage.VSCode.ReportService\' at '/Users/coycrowder/.ServiceHub/19075490e6/692bfea731 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService\' at '/Users/coycrowder/.ServiceHub/19075490e6/d75fd4e421 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":6,"result":{"RequestId":"ded8f495-afd0-4946-9d77-f199dc499146","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/9c48a46626","IsEmpty":false}}Content-Length: 167
+
+{"jsonrpc":"2.0","id":3,"result":{"RequestId":"e3c0ca6f-7363-4a22-acbf-fe1589083cf9","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/d75fd4e421","IsEmpty":false}}Content-Length: 167
+
+{"jsonrpc":"2.0","id":5,"result":{"RequestId":"7881c385-50c2-424e-b890-c0a1ea9244c2","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/692bfea731","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 351
+
+{"jsonrpc":"2.0","id":10,"method":"requestServiceChannel","params":[{"Name":"Microsoft.CodeCoverage.VSCode.CollectionService","Version":"1.0"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/6020fb3144"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : Locating service 'Microsoft.CodeCoverage.VSCode.CollectionService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Service 'Microsoft.CodeCoverage.VSCode.CollectionService' has not been loaded before. Loading now.
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 982
+
+{"jsonrpc":"2.0","id":6,"method":"startService","params":[{"name":"Microsoft.CodeCoverage.VSCode.CollectionService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/vs-code-coverage/platforms/darwin-x64/node_modules/@microsoft/coverage-services.darwin-x64/Microsoft.CodeCoverage.VSCode.Services.dll","fullClassName":"Microsoft.VisualStudio.CoverageServices.CollectionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/6020fb3144","__servicehub__RequestedServiceVersion":"1.0"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 105
+
+{"jsonrpc":"2.0","method":"hostServicesStarted","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}Content-Length: 87
+
+{"jsonrpc":"2.0","id":6,"result":"/Users/coycrowder/.ServiceHub/19075490e6/affc63205d"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.CodeCoverage.VSCode.CollectionService\' at '/Users/coycrowder/.ServiceHub/19075490e6/affc63205d @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":10,"result":{"RequestId":"939e06c8-b87e-49c1-b0f6-21045d7dae0d","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/affc63205d","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 93
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 1037
+
+{"jsonrpc":"2.0","id":3,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectTreeProviderFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f275347bc5","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 1036
+
+{"jsonrpc":"2.0","id":4,"method":"startService","params":[{"name":"Microsoft.VisualStudio.CpsProjectIconSourceService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/29d6139bb1","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 1067
+
+{"jsonrpc":"2.0","id":5,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e85fe7e25d","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 991
+
+{"jsonrpc":"2.0","id":6,"method":"startService","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/f5ebcdb6ba"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/19075490e6/db313a7658"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectTreeProvider\' at '/Users/coycrowder/.ServiceHub/19075490e6/db313a7658 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":4,"result":{"RequestId":"f41b86c0-1828-47de-92e4-690b271c262a","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/db313a7658","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/19075490e6/5aba27c081"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.CpsProjectIconSourceService\' at '/Users/coycrowder/.ServiceHub/19075490e6/5aba27c081 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":9,"result":{"RequestId":"b4b6e42a-f2f3-44ba-8799-04b58a68e944","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/5aba27c081","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":5,"result":"/Users/coycrowder/.ServiceHub/19075490e6/262cf036ba"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService\' at '/Users/coycrowder/.ServiceHub/19075490e6/262cf036ba @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":8,"result":{"RequestId":"f6bc49bc-fc0f-4491-b6b1-1eb77e30ff65","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/262cf036ba","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":6,"result":"/Users/coycrowder/.ServiceHub/19075490e6/c0e4862d49"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.LaunchConfigurationService\' at '/Users/coycrowder/.ServiceHub/19075490e6/c0e4862d49 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 167
+
+{"jsonrpc":"2.0","id":7,"result":{"RequestId":"a856e96f-f3e1-4b04-8994-c2a3d93c5902","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/c0e4862d49","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 119
+
+{"jsonrpc":"2.0","method":"hostServicesStarted","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 359
+
+{"jsonrpc":"2.0","id":11,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/d4ed6c49eb"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.CompositionService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.CompositionService' has not been loaded before. Loading now.
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 1035
+
+{"jsonrpc":"2.0","id":7,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/d4ed6c49eb","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":7,"result":"/Users/coycrowder/.ServiceHub/19075490e6/d44251ddde"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.CompositionService\' at '/Users/coycrowder/.ServiceHub/19075490e6/d44251ddde @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":11,"result":{"RequestId":"ea0cab1e-2501-4c9e-b280-bffd4f4a0e88","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/d44251ddde","IsEmpty":false}}
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 374
+
+{"jsonrpc":"2.0","id":12,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e66703ec1b"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Service 'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service' has not been loaded before. Loading now.
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService write: Content-Length: 1093
+
+{"jsonrpc":"2.0","id":7,"method":"startService","params":[{"name":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSUnitTesting/platforms/darwin-x64/node_modules/@microsoft/visualstudio-testwindow-vscode-service.darwin-x64/Microsoft.VisualStudio.TestWindow.VSCode.Service.dll","fullClassName":"Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service.ProjectSystemProviderServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e66703ec1b","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:18 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":7,"result":"/Users/coycrowder/.ServiceHub/19075490e6/4cf926a748"}
+10/17/2024 12:21:18 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.TestWindow.VSCode.ProjectSystemProvider.Service\' at '/Users/coycrowder/.ServiceHub/19075490e6/4cf926a748 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:18 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":12,"result":{"RequestId":"eb765671-5d7c-40f1-afde-16aa41cadec2","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/4cf926a748","IsEmpty":false}}
+10/17/2024 12:21:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 377
+
+{"jsonrpc":"2.0","id":13,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.2"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/4f7038b053"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' has not been loaded before. Loading now.
+10/17/2024 12:21:19 Central Standard Time : Information : LocationService write: Content-Length: 1056
+
+{"jsonrpc":"2.0","id":8,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/4f7038b053","__servicehub__RequestedServiceVersion":"0.2"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":8,"result":"/Users/coycrowder/.ServiceHub/19075490e6/4c49fcc024"}
+10/17/2024 12:21:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService\' at '/Users/coycrowder/.ServiceHub/19075490e6/4c49fcc024 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":13,"result":{"RequestId":"849af17e-9e55-49d1-b9fb-213fe801b50c","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/4c49fcc024","IsEmpty":false}}
+10/17/2024 12:21:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 354
+
+{"jsonrpc":"2.0","id":14,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.CpsProjectIconSourceService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/39d28afbb7"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:19 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.CpsProjectIconSourceService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:19 Central Standard Time : Information : Service 'Microsoft.VisualStudio.CpsProjectIconSourceService' has not been loaded before. Loading now.
+10/17/2024 12:21:19 Central Standard Time : Information : LocationService write: Content-Length: 1036
+
+{"jsonrpc":"2.0","id":9,"method":"startService","params":[{"name":"Microsoft.VisualStudio.CpsProjectIconSourceService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectIconSourceServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/39d28afbb7","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:19 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":9,"result":"/Users/coycrowder/.ServiceHub/19075490e6/2ed78e553d"}
+10/17/2024 12:21:19 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.CpsProjectIconSourceService\' at '/Users/coycrowder/.ServiceHub/19075490e6/2ed78e553d @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:19 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":14,"result":{"RequestId":"43663d69-c961-4b90-9d85-a3baf7b1c558","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/2ed78e553d","IsEmpty":false}}
+10/17/2024 12:21:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 375
+
+{"jsonrpc":"2.0","id":15,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e8127cc1b9"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:22 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:22 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService' has not been loaded before. Loading now.
+10/17/2024 12:21:22 Central Standard Time : Information : LocationService write: Content-Length: 1068
+
+{"jsonrpc":"2.0","id":10,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.ProjectInitializationStatusServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/e8127cc1b9","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:22 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":10,"result":"/Users/coycrowder/.ServiceHub/19075490e6/bebc8094a6"}
+10/17/2024 12:21:22 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.ProjectInitializationStatusService\' at '/Users/coycrowder/.ServiceHub/19075490e6/bebc8094a6 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:22 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":15,"result":{"RequestId":"594e5640-1795-4b6c-badf-5f39b7165a61","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/bebc8094a6","IsEmpty":false}}
+10/17/2024 12:21:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 377
+
+{"jsonrpc":"2.0","id":16,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","Version":"0.3"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/76809f1b8b"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:25 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:25 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' has not been loaded before. Loading now.
+10/17/2024 12:21:25 Central Standard Time : Information : LocationService write: Content-Length: 1057
+
+{"jsonrpc":"2.0","id":11,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/76809f1b8b","__servicehub__RequestedServiceVersion":"0.3"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:21:25 Central Standard Time : Information : LocationService read: Content-Length: 88
+
+{"jsonrpc":"2.0","id":11,"result":"/Users/coycrowder/.ServiceHub/19075490e6/3a45e7dc97"}
+10/17/2024 12:21:25 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService\' at '/Users/coycrowder/.ServiceHub/19075490e6/3a45e7dc97 @ dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:21:25 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":16,"result":{"RequestId":"a7bf374c-d84e-4c32-b36a-6635aa3d4efd","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/3a45e7dc97","IsEmpty":false}}
+10/17/2024 12:22:01 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 371
+
+{"jsonrpc":"2.0","id":17,"method":"requestServiceChannel","params":[{"Name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","Version":"0.1"},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/bf6e301fc6"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:22:01 Central Standard Time : Information : Locating service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' requested by VsHubClient (pid:45675)
+10/17/2024 12:22:01 Central Standard Time : Information : Service 'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService' has not been loaded before. Loading now.
+10/17/2024 12:22:01 Central Standard Time : Information : LocationService write: Content-Length: 1025
+
+{"jsonrpc":"2.0","id":8,"method":"startService","params":[{"name":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService","host":"dotnet","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.11.14-darwin-x64/components/VSDebugCore/platforms/darwin-x64/node_modules/@microsoft/visualstudio-debugger-devkit.darwin-x64/Microsoft.VisualStudio.Debugger.DevKit.dll","fullClassName":"Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService+Factory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/19075490e6/bf6e301fc6","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+10/17/2024 12:22:01 Central Standard Time : Information : LocationService read: Content-Length: 87
+
+{"jsonrpc":"2.0","id":8,"result":"/Users/coycrowder/.ServiceHub/19075490e6/8ac31a6ba3"}
+10/17/2024 12:22:01 Central Standard Time : Information : Located service \'Microsoft.VisualStudio.Debugger.HotReloadSessionNotificationService\' at '/Users/coycrowder/.ServiceHub/19075490e6/8ac31a6ba3 @ dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' requested by VsHubClient (pid:45675)
+10/17/2024 12:22:01 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 168
+
+{"jsonrpc":"2.0","id":17,"result":{"RequestId":"bd07513e-4896-4a60-86e6-1af702db1678","PipeName":"/Users/coycrowder/.ServiceHub/19075490e6/8ac31a6ba3","IsEmpty":false}}
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+10/17/2024 12:32:35 Central Standard Time : Information : LocationService read: Content-Length: 103
+
+{"jsonrpc":"2.0","method":"hostServicesEnded","params":["dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+10/17/2024 12:32:35 Central Standard Time : Information : External client disconnected from client watch.
+10/17/2024 12:32:35 Central Standard Time : Information : Starting fast shutdown
+10/17/2024 12:32:35 Central Standard Time : Information : Stopping the location service server.
+10/17/2024 12:32:35 Central Standard Time : Information : Exiting hub controller.
+10/17/2024 12:32:35 Central Standard Time : Information : Releasing single controller instance mutex.
+10/17/2024 12:32:35 Central Standard Time : Information : Stopping host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' PID: 45709 due to ForcedControllerShutdown
+10/17/2024 12:32:35 Central Standard Time : Information : Stopping host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' PID: 45710 due to ForcedControllerShutdown
+10/17/2024 12:32:35 Central Standard Time : Information : Waiting for all hosts to shutdown. Running hosts: dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE, dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE
+10/17/2024 12:32:35 Central Standard Time : Information : LocationService write: Content-Length: 46
+
+{"jsonrpc":"2.0","method":"exit","params":[3]}
+10/17/2024 12:32:35 Central Standard Time : Information : Host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' has been removed from the hosts cache.
+10/17/2024 12:32:35 Central Standard Time : Information : Waiting for host 'dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' with pid '45710' to exit...
+10/17/2024 12:32:35 Central Standard Time : Information : Host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' has been removed from the hosts cache.
+10/17/2024 12:32:35 Central Standard Time : Information : Waiting for host 'dotnet$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE' with pid '45709' to exit...
+10/17/2024 12:32:35 Central Standard Time : Information : LocationService write: Content-Length: 46
+
+{"jsonrpc":"2.0","method":"exit","params":[3]}
+10/17/2024 12:32:35 Central Standard Time : Information : LocationService read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : LocationService read: end of stream
+10/17/2024 12:32:35 Central Standard Time : Information : code: 'Hub host 'C94B8CFE-E3FD-4BAF-A941-2866DBB566FE', PID: 45709 exited.' 0.
+10/17/2024 12:32:35 Central Standard Time : Information : Waiting for all hosts to shutdown. Running hosts: dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE
+10/17/2024 12:32:35 Central Standard Time : Information : code: 'Hub host 'C94B8CFE-E3FD-4BAF-A941-2866DBB566FE', PID: 45710 exited.' 0.
+10/17/2024 12:32:35 Central Standard Time : Information : All hosts have exited.
+10/17/2024 12:32:35 Central Standard Time : Information : Controller terminating with exit code '0'.

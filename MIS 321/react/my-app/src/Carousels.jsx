@@ -9,7 +9,6 @@ const BookCarousel = ({ genre }) => {
   useEffect(() => {
     const loadBooks = async () => {
       const booksData = await fetchBooksByGenre(genre, 100);
-      console.log(booksData);
       setBooks(booksData[genre] || []);
     };
 
@@ -52,9 +51,9 @@ const BookCarousel = ({ genre }) => {
         <div className="carousel-inner">
           {bookChunks.map((chunk, index) => (
             <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-              <div className="row">
+              <div className="d-flex justify-content-center gap-3">
                 {chunk.map((book, i) => (
-                  <div className={`col-${12 / booksPerPage}`} key={i}>
+                  <div key={i} className="book-card-wrapper">
                     <Card book={book} />
                   </div>
                 ))}

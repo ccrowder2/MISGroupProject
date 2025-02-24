@@ -1,0 +1,58 @@
+﻿09/05/2024 23:57:45 Central Standard Time : Information : Local timezone is (UTC-06:00) Central Time (Chicago)
+09/05/2024 23:57:46 Central Standard Time : Information : Service Hub .NET service module host started. Host id: dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE. Controller pipe: net.pipe://9562A4E25C. PID: 9577
+09/05/2024 23:57:46 Central Standard Time : Information : hubHostClr read: Content-Length: 111
+
+{"jsonrpc":"2.0","id":2,"method":"initializeHost","params":[{"HostsRootDirectory":".","AppConfigFallback":""}]}
+09/05/2024 23:57:46 Central Standard Time : Information : hubHostClr write: Content-Length: 93
+
+{"jsonrpc":"2.0","id":2,"result":"dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"}
+09/05/2024 23:57:46 Central Standard Time : Information : hubHostClr read: Content-Length: 991
+
+{"jsonrpc":"2.0","id":3,"method":"startService","params":[{"name":"Microsoft.VisualStudio.LaunchConfigurationService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/9f4c486ef9/b4ec6dad80"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/05/2024 23:57:46 Central Standard Time : Information : CLR host received start request for service 'Microsoft.VisualStudio.LaunchConfigurationService'
+09/05/2024 23:57:46 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64'
+09/05/2024 23:57:46 Central Standard Time : Information : Starting service module 'Microsoft.VisualStudio.LaunchConfigurationService'. Class: Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory, Supported Version: 
+09/05/2024 23:57:46 Central Standard Time : Information : Started service 'Microsoft.VisualStudio.LaunchConfigurationService'. Pipe name: /Users/coycrowder/.ServiceHub/9f4c486ef9/412eea8e11, Supported Version: 
+09/05/2024 23:57:46 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":3,"result":"/Users/coycrowder/.ServiceHub/9f4c486ef9/412eea8e11"}
+09/05/2024 23:57:46 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.LaunchConfigurationService'
+09/05/2024 23:57:46 Central Standard Time : Information : hubHostClr write: Content-Length: 119
+
+{"jsonrpc":"2.0","method":"hostServicesStarted","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+09/05/2024 23:57:46 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.LaunchConfigurationService.
+09/05/2024 23:57:46 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/05/2024 23:57:46 Central Standard Time : Information : Creating service Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=.
+09/05/2024 23:57:46 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' from factory
+09/05/2024 23:57:47 Central Standard Time : Information : hubHostClr read: Content-Length: 1035
+
+{"jsonrpc":"2.0","id":4,"method":"startService","params":[{"name":"Microsoft.VisualStudio.ProjectSystem.CompositionService","host":"dotnet.projectSystem","hostId":"C94B8CFE-E3FD-4BAF-A941-2866DBB566FE","serviceBaseDirectory":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64","entryPoint":{"assemblyPath":"/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll","fullClassName":"Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory"}},{"ActivationArguments":{"__servicehub__ServiceHubRemoteServiceBrokerPipeName":"/Users/coycrowder/.ServiceHub/9f4c486ef9/0833474cdc","__servicehub__RequestedServiceVersion":"0.1"},"ClientCredentials":{},"ClientCulture":"en-US","ClientUICulture":"en-US"}]}
+09/05/2024 23:57:47 Central Standard Time : Information : CLR host received start request for service 'Microsoft.VisualStudio.ProjectSystem.CompositionService'
+09/05/2024 23:57:47 Central Standard Time : Information : Loading service module assembly '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64/Microsoft.VisualStudio.ProjectSystem.Server.Implementation.dll' from '/Users/coycrowder/.vscode/extensions/ms-dotnettools.csdevkit-1.10.16-darwin-x64/components/CPS/platforms/darwin-x64/node_modules/@microsoft/visualstudio-projectsystem-server.darwin-x64'
+09/05/2024 23:57:47 Central Standard Time : Information : Starting service module 'Microsoft.VisualStudio.ProjectSystem.CompositionService'. Class: Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory, Supported Version: 
+09/05/2024 23:57:47 Central Standard Time : Information : Started service 'Microsoft.VisualStudio.ProjectSystem.CompositionService'. Pipe name: /Users/coycrowder/.ServiceHub/9f4c486ef9/f2bb8470bd, Supported Version: 
+09/05/2024 23:57:47 Central Standard Time : Information : hubHostClr write: Content-Length: 87
+
+{"jsonrpc":"2.0","id":4,"result":"/Users/coycrowder/.ServiceHub/9f4c486ef9/f2bb8470bd"}
+09/05/2024 23:57:47 Central Standard Time : Information : A new client connected to CLR service module 'Microsoft.VisualStudio.ProjectSystem.CompositionService'
+09/05/2024 23:57:47 Central Standard Time : Information : Found FactoryVersion=Version2 for service : Microsoft.VisualStudio.ProjectSystem.CompositionService.
+09/05/2024 23:57:47 Central Standard Time : Information : Service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements IServiceHubServiceFactory. Creating factory instance and caching it.
+09/05/2024 23:57:47 Central Standard Time : Information : Creating service Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory from factory with FactoryVersion=Version2 and ClientRequestedVersion=0.1.
+09/05/2024 23:57:47 Central Standard Time : Information : Setting up RPC connection for service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' from factory
+09/05/2024 23:57:47 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' from factory
+09/05/2024 23:57:47 Central Standard Time : Information : Completed RPC connection setup for service 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' from factory
+09/05/2024 23:57:47 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/05/2024 23:57:47 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements System.IAsyncDisposable.
+09/05/2024 23:57:47 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.CompositionServiceFactory' implements System.IDisposable.
+09/05/2024 23:57:54 Central Standard Time : Information : hubHostClr write: Content-Length: 117
+
+{"jsonrpc":"2.0","method":"hostServicesEnded","params":["dotnet.projectSystem$C94B8CFE-E3FD-4BAF-A941-2866DBB566FE"]}
+09/05/2024 23:57:54 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements Microsoft.VisualStudio.Threading.IAsyncDisposable.
+09/05/2024 23:57:54 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements System.IAsyncDisposable.
+09/05/2024 23:57:54 Central Standard Time : Information : Checking if 'Microsoft.VisualStudio.ProjectSystem.Server.LaunchConfigurationServiceFactory' implements System.IDisposable.
+09/05/2024 23:57:54 Central Standard Time : Information : hubHostClr read: Content-Length: 46
+
+{"jsonrpc":"2.0","method":"exit","params":[3]}
+09/05/2024 23:57:54 Central Standard Time : Information : Exit command received with reason 'ForcedControllerShutdown'. Exiting CLR host
+09/05/2024 23:57:54 Central Standard Time : Information : hubHostClr JSON RPC has been disposed
+09/05/2024 23:57:54 Central Standard Time : Information : hubHostClr read: end of stream
