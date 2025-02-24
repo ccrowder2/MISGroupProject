@@ -1,0 +1,93 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.13.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/coycrowder/Library/Caches/typescript/5.7/.npmrc
+5 silly config load:file:/Users/coycrowder/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/bootstrap@ts5.7 @types/react@ts5.7 @types/react-dom@ts5.7
+8 verbose argv "install" "--ignore-scripts" "@types/bootstrap@ts5.7" "@types/react@ts5.7" "@types/react-dom@ts5.7" "--save-dev" "--user-agent" "typesInstaller/5.7.3"
+9 verbose logfile logs-max:10 dir:/Users/coycrowder/.npm/_logs/2025-02-23T22_47_09_406Z-
+10 verbose logfile /Users/coycrowder/.npm/_logs/2025-02-23T22_47_09_406Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbootstrap cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2freact 242ms (cache updated)
+18 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+19 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 274ms (cache updated)
+20 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbootstrap set size:undefined disposed:false
+21 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 274ms (cache updated)
+22 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+23 silly idealTree buildDeps
+24 silly fetch manifest @types/bootstrap@5.2.10
+25 silly packumentCache full:https://registry.npmjs.org/@types%2fbootstrap cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 58ms (cache updated)
+27 silly packumentCache full:https://registry.npmjs.org/@types%2fbootstrap set size:undefined disposed:false
+28 silly fetch manifest @types/react@19.0.10
+29 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/@types%2freact 124ms (cache updated)
+31 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+32 silly fetch manifest @types/react-dom@19.0.4
+33 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 83ms (cache updated)
+35 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+36 silly placeDep ROOT @types/bootstrap@5.2.10 REPLACE for:  want: 5.2.10
+37 silly placeDep ROOT @types/react@19.0.10 REPLACE for:  want: 19.0.10
+38 silly placeDep ROOT @types/react-dom@19.0.4 REPLACE for:  want: 19.0.4
+39 silly reify moves {}
+40 silly audit bulk request {
+40 silly audit   '@popperjs/core': [ '2.11.8' ],
+40 silly audit   '@types/d3': [ '7.4.3' ],
+40 silly audit   '@types/d3-array': [ '3.2.1' ],
+40 silly audit   '@types/d3-axis': [ '3.0.6' ],
+40 silly audit   '@types/d3-brush': [ '3.0.6' ],
+40 silly audit   '@types/d3-chord': [ '3.0.6' ],
+40 silly audit   '@types/d3-color': [ '3.1.3' ],
+40 silly audit   '@types/d3-contour': [ '3.0.6' ],
+40 silly audit   '@types/d3-delaunay': [ '6.0.4' ],
+40 silly audit   '@types/d3-dispatch': [ '3.0.6' ],
+40 silly audit   '@types/d3-drag': [ '3.0.7' ],
+40 silly audit   '@types/d3-dsv': [ '3.0.7' ],
+40 silly audit   '@types/d3-ease': [ '3.0.2' ],
+40 silly audit   '@types/d3-fetch': [ '3.0.7' ],
+40 silly audit   '@types/d3-force': [ '3.0.10' ],
+40 silly audit   '@types/d3-format': [ '3.0.4' ],
+40 silly audit   '@types/d3-geo': [ '3.1.0' ],
+40 silly audit   '@types/d3-hierarchy': [ '3.1.7' ],
+40 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+40 silly audit   '@types/d3-path': [ '3.1.1' ],
+40 silly audit   '@types/d3-polygon': [ '3.0.2' ],
+40 silly audit   '@types/d3-quadtree': [ '3.0.6' ],
+40 silly audit   '@types/d3-random': [ '3.0.3' ],
+40 silly audit   '@types/d3-scale': [ '4.0.9' ],
+40 silly audit   '@types/d3-scale-chromatic': [ '3.1.0' ],
+40 silly audit   '@types/d3-selection': [ '3.0.11' ],
+40 silly audit   '@types/d3-shape': [ '3.1.7' ],
+40 silly audit   '@types/d3-time': [ '3.0.4' ],
+40 silly audit   '@types/d3-time-format': [ '4.0.3' ],
+40 silly audit   '@types/d3-timer': [ '3.0.2' ],
+40 silly audit   '@types/d3-transition': [ '3.0.9' ],
+40 silly audit   '@types/d3-zoom': [ '3.0.8' ],
+40 silly audit   '@types/geojson': [ '7946.0.16' ],
+40 silly audit   '@types/json2csv': [ '5.0.7' ],
+40 silly audit   '@types/lodash': [ '4.17.15' ],
+40 silly audit   '@types/lodash.get': [ '4.4.9' ],
+40 silly audit   '@types/node': [ '22.13.4' ],
+40 silly audit   csstype: [ '3.1.3' ],
+40 silly audit   'types-registry': [ '0.1.709' ],
+40 silly audit   'undici-types': [ '6.20.0' ],
+40 silly audit   '@types/bootstrap': [ '5.2.10' ],
+40 silly audit   '@types/react': [ '19.0.10' ],
+40 silly audit   '@types/react-dom': [ '19.0.4' ]
+40 silly audit }
+41 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 138ms
+42 silly audit report {}
+43 verbose cwd /Users/coycrowder/Library/Caches/typescript/5.7
+44 verbose os Darwin 21.6.0
+45 verbose node v22.13.0
+46 verbose npm  v10.9.2
+47 verbose exit 0
+48 info ok

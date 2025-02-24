@@ -14,7 +14,11 @@
     position: relative;
     transition: transform 0.2s ease-in-out;
     flex-shrink: 0;
-    z-index: 10000;
+    z-index: 1000;
+}
+
+#body{
+    padding-top: 40px;
 }
   
 .img-container {
@@ -40,7 +44,7 @@
     bottom: -100%;
     left: 0;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: darkgray;
     border-top: 1px solid #ddd;
     opacity: 0;
     transition: opacity 0.3s ease, bottom 0.3s ease;
@@ -83,7 +87,7 @@
     color: white;
     font-weight: bold;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 /* Move arrows inward dynamically */
@@ -123,4 +127,8 @@
 @media (max-width: 576px) {
     #left-control { left: -40px; }
     #right-control { right: -40px; }
+}
+
+.navbar-brand {
+    padding-left: 10px;
 }

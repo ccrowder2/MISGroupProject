@@ -8,7 +8,7 @@ const BookCarousel = ({ genre }) => {
 
   useEffect(() => {
     const loadBooks = async () => {
-      const booksData = await fetchBooksByGenre(genre, 100);
+      const booksData = await fetchBooksByGenre(genre, 32);
       setBooks(booksData[genre] || []);
     };
 

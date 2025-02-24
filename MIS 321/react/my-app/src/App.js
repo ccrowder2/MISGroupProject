@@ -9,9 +9,11 @@ function App() {
   })
   return (
     <div className="App">
-      <Navbar />
-      <BookCarousel genre={'Fiction'}/>
-      <BookCarousel genre={'Biography'}/>
+      <Navbar user={'Coy'}/>
+      <div id="body">
+        <BookCarousel genre={'Fiction'}/>
+        <BookCarousel genre={'Biography'}/>
+      </div>
     </div>
   );
 }

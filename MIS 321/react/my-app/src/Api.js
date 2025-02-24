@@ -51,6 +51,5 @@ export const fetchBooksByGenre = async (genre, batchSize) => {
     }
   }
 
-  console.log(`Fetched books for genre: ${genre}`, booksByGenre[genre]);
   return booksByGenre;
 };

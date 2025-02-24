@@ -17,9 +17,6 @@ const Card = ({ book }) => {
         <p className="card-text">
           <strong>By: </strong>{(book.authors && book.authors.length > 0) ? book.authors[0] : "Not available"}
         </p>
-        <p className="card-text">
-          {book.pageCount || "Not available"} Pages | {book.categories}
-        </p>
       </div>
     </div>
   );
